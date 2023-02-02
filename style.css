@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .strip{
+    display: flex;
+}
+
+.container .strip .grid{
+    border:1px solid black;
+    width: 20px;
+    height: 20px;
+}
