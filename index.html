@@ -8,6 +8,16 @@
     <title>Etch-a-Sketch</title>
 </head>
 <body>
+        <div class="settings">
+            <form onsubmit="setGrid();return false">
+                <fieldset>
+                    <legend>Settings</legend>
+                    <label for="grid">Number of squares per side:</label><br>
+                    <input type="number" id="gridByUser" name="grid"><br><br>
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </div>
         <div class="container">
         </div>
 </body>
