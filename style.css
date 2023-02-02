@@ -15,8 +15,12 @@ body{
     display: flex;
 }
 
+.container .strip .active{
+    background-color: red;
+}
+
 .container .strip .grid{
-    border:1px solid black;
-    width: 20px;
-    height: 20px;
+    border:0.5px solid black;
+    width: 2vw;
+    height: 2vw;
 }

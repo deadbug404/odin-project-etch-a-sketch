@@ -12,4 +12,10 @@ for(let i =1; i<= 16;i++){
     }
 }
 
-//hovering event
+//adds color to the specific div when hovered
+let grids = document.querySelectorAll('.grid');
+grids.forEach((grid) => {
+    grid.addEventListener('mouseover', function (event){
+        grid.classList.add('active');
+    });
+});
