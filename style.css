@@ -5,6 +5,21 @@ body{
     align-items: center;
     justify-content: center;
     gap: 50px;
+    background: url('image/background.gif');
+    background-size: cover;
+}
+
+legend,label{
+    font-size: 20px;
+}
+
+input[type^='number'], input[type^='submit']{
+    border: none;
+    border-radius: 10px;
+}
+
+input[type^='submit']:hover{
+    background-color: aquamarine;
 }
 
 .container{
@@ -26,7 +41,7 @@ body{
 #pcolor{
     width: 50px;
     height: 50px;
-    border: none;
+    border: 1px solid black;
     cursor: pointer;
 
 }
