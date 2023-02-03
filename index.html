@@ -14,7 +14,11 @@
                     <legend>Settings</legend>
                     <label for="grid">Number of squares per side:</label><br>
                     <input type="number" id="gridByUser" name="grid"><br><br>
-                    <input type="submit">
+                    <input type="submit"><br><br>
+                    <label for="hasGrid">Grid Enabled</label>
+                    <input type="checkbox" id="hasGrid" name="hasGrid" value="hasGrid" onchange="showGrid(this)"><br>
+                    <label for="pcolor">Paint Color</label>
+                    <input type="color" name="pcolor" id="pcolor">
                 </fieldset>
             </form>
         </div>
