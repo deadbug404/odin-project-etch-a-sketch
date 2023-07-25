@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: bisque;
+    margin-bottom: 30px;
+}
+
+.body{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 0.5px solid black;
+    flex-direction: column;
+    user-select: none;
+}
+
+.row,.grid{
+    display: flex;
+    flex:1;
+}
+
+
+.hasGrid{
+    border: 1px solid black;
+}
+
+.selected{
+    background-color: red;
+}
+
+.body .settings{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.body .settings input[type='color']{
+    width: 80px;
+    border-radius: 5px;
+}
+
+.body .settings input[type='text']{
+    width: 200px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.body .settings button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 80px;
+}
+
+.body .settings button:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}

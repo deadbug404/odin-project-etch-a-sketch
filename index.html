@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Etch a Sketch</title>
 </head>
 <body>
-    
+    <div class="header">
+        <h1>Etch a Sketch!</h1>
+    </div>
+    <div class="body">
+        <div class="container">
+        </div>
+        <div class="settings">
+            <div>
+                <center>
+                    <h3>Settings</h3>
+                </center>               
+            </div>
+            <div>
+                <input type="text" id="area" name="area" placeholder="Number of squares per side">
+                <button id="areaButton" style="margin-left: 10px;">Submit</button>
+            </div>
+            <div>
+                <input type="color" name="color" id="color">
+            </div>
+            <div>
+                <input type="checkbox" name="setGrid" id="setGrid">
+                <label for="setGrid">Toggle Grid</label>
+            </div>
+            <div>
+                <input type="checkbox" name="setEraser" id="setEraser">
+                <label for="setEraser">Toggle Eraser</label>
+            </div>
+            <div>
+                <button id="clear">Clear</button>
+            </div>
+            
+        </div>
+    </div>
+
 </body>
 </html>
